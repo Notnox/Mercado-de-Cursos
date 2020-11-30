@@ -1,0 +1,92 @@
+body {
+    background-color: skyblue;
+}
+
+header, section, div, footer {
+    background-color: rgb(237, 237, 237);
+    padding: 5px;
+    border: 2px stretch skyblue;
+    margin: 5px;
+}
+
+header {
+    margin-top: 20px;
+    border-radius: 10px 10px 0 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.menu {
+    width: 150px;
+    height: 30px;
+    background-color: white;
+    transition: background-color 1s;
+    -webkit-transition: background-color 1s;
+    -o-transition: background-color 1s;
+}
+
+.menu:hover{
+    background-color: rgba(0, 0, 0, .2);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    width: 60%;
+    height: 400px;
+}
+
+#estoque {
+    width: 100%;
+    height: 100%;
+}
+
+aside {
+    width: 40%;
+}
+
+div {
+    border-radius: 10px 0 0 0;
+}
+
+#localcarrinho, #localcomprar, footer {
+    text-align: center;
+}
+
+#localcarrinho {
+    margin-bottom: 10px;
+    height: 230px;
+}
+
+#carrinho{
+    width: 90%;
+    height: 150px;
+    font-size: 12pt;
+    padding: 5px;
+    border: 5px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px 0 0 10px;
+    outline-style: none;
+}
+
+#localcomprar {
+    height: 150px;
+}
+#buscar {
+    width: 90%;
+    height: 25px;
+    font-size: 12pt;
+}
+button {
+    margin-top: 10px;
+    font-size: 14pt;
+}
+footer {
+    border-radius: 0 0 10px 10px;
+}

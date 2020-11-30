@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/style.css">
+        <title>Supermercado DEVinHouse</title>
+    </head>
+    <body>
+        <header>
+            <h1>Olá, qual é o seu pedido hoje?</h1>
+            <div>
+                <button onclick="carregarLista()" class="menu">Carregar lista</button>
+                <button onclick="salvarLista()" class="menu">Salvar lista</button>
+            </div>
+        </header>
+        <main>
+            <section>
+                <iframe src="mercadoria.html" frameborder="0" id="estoque"></iframe>
+            </section>
+            <aside>
+                <div id="localcarrinho">
+                    <h3>Carrinho</h3>
+                    <select id="carrinho" size="5"></select>
+                </div>
+                <div id="localcomprar">
+                    <label for="buscar"><h3>Procure aqui por algum produto</h3></label>
+                    <input type="text" id="buscar" list="produtos" placeholder="Qual curso você procura?">
+                    <datalist id="produtos">
+                        <option value="HTML5"></option>
+                        <option value="CSS3"></option>
+                        <option value="JS"></option>
+                        <option value="Java"></option>
+                        <option value="Python"></option>
+                        <option value="Ruby"></option>
+                        <option value="SQL"></option>
+                        <option value="MySQL"></option>
+                        <option value="PHP"></option>
+                        <option value="React"></option>                 
+                    </datalist>
+                    <button onclick="adicionarBotao()">Adicionar ao carrinho</button>
+                    <button onclick="limparCarrinho()">Limpar Carrinho</button>
+                </div>
+            </aside>
+        </main>
+        <footer>
+            <h3>Site desenvolvido por Lucas Pires</h3>
+        </footer>
+        <script src="script/script.js"></script>
+    </body>
+</html>

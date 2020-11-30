@@ -1,0 +1,65 @@
+main{
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px 0 20px 0;
+}
+table, tr, th{
+    margin: auto;
+    padding: 30px;
+}
+section {
+    width: 150px;
+    height: 150px;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+button {
+    background-color: burlywood;
+    width: 40px;
+    height: 40px;
+    outline-style: none;
+    border-radius: 50%;
+    border: 0px;
+    font-size: 16pt;
+    transition: background-color 1s;
+    -webkit-transition: background-color 1s;
+    -o-transition: background-color 1s;
+}
+button:hover{
+    background-color: rgba(0, 0, 0, .7);
+}
+#produto01 {
+    background-image: url('../imagens/html5.jpg');
+}
+#produto02 {
+    background-image: url('../imagens/css3.jpg');
+}
+#produto03 {
+    background-image: url('../imagens/js.jpg');
+}
+#produto04 {
+    background-image: url('../imagens/java.jpg');
+}
+#produto05 {
+    background-image: url('../imagens/python.jpg');
+}
+#produto06 {
+    background-image: url('../imagens/ruby.jpg');
+}
+#produto07 {
+    background-image: url('../imagens/sql.jpg');
+}
+#produto08 {
+    background-image: url('../imagens/mysql.jpg');
+}
+#produto09 {
+    background-image: url('../imagens/php.jpg');
+}
+#produto10 {
+    background-image: url('../imagens/react.jpg');
+}
+
+
